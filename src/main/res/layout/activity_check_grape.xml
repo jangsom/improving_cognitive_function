@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckGrape">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0363A3"
+                    android:fontFamily="@font/doumb"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:text="tt"
+                    android:textColor="#0363A3"
+                    android:textSize="@dimen/_32ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintHorizontal_chainStyle="spread"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:id="@+id/imageView49"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_42sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:onClick="onClick2"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView38"
+                    app:layout_constraintEnd_toEndOf="@+id/textView38"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView38"
+                    app:layout_constraintTop_toTopOf="@+id/textView38"
+                    app:layout_constraintVertical_bias="0.217"
+                    app:srcCompat="@drawable/arrowaa" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:text="활동 결과 그래프 보기"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginRight="@dimen/_30sdp"
+                    android:fontFamily="@font/doumb"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:textColor="#C8FFFFFF"
+                    android:textSize="@dimen/_24ssp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView38"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintHorizontal_chainStyle="spread"
+                    app:layout_constraintStart_toEndOf="@+id/imageView49"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.312" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="지남력 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="집중력 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="기억력 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="계산능력 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="시지각 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="공간지각 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="문제해결력 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="사고조직력 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/textedge"
+                android:fontFamily="@font/doumb"
+                android:gravity="center"
+                android:text="실행능력 증진 활동 결과"
+                android:textSize="@dimen/_18ssp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart_part10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </com.github.mikephil.charting.charts.BarChart>
+
+            <!--
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part1"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part2"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part3"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part4"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part5"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part6"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part7"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part8"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part9"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+                        <com.github.mikephil.charting.charts.LineChart
+                            android:id="@+id/chart_part10"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </com.github.mikephil.charting.charts.LineChart>
+            -->
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

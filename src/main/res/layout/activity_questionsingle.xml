@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    tools:context=".Questionsingle">
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/roundedge4"
+        android:clickable="true"
+        android:fontFamily="@font/doumb"
+        android:gravity="right|center_vertical"
+        android:onClick="onClick2"
+        android:text="도움받아 해결하기  "
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="@dimen/_155sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/roundedge3"
+        android:clickable="false"
+        android:fontFamily="@font/doumb"
+        android:gravity="left|center_vertical"
+        android:text="  혼자서 해결하기"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#0363A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:background="#4D000000"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="지남력 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="집중력 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:background="#4D000000"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="기억력 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="계산능력 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+            <TextView
+                android:id="@+id/textview5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:background="#4D000000"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="시지각 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+            <TextView
+                android:id="@+id/textview6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="공간지각 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+            <TextView
+                android:id="@+id/textview7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:background="#4D000000"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="문제해결력 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+            <TextView
+                android:id="@+id/textview8"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="사고조직력 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+            <TextView
+                android:id="@+id/textview9"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75ssp"
+                android:layout_gravity="center"
+                android:background="#4D000000"
+                android:fontFamily="@font/suncheonb"
+                android:gravity="center"
+                android:text="실행능력 증진 활동"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_30ssp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/doumb"
+        android:gravity="center"
+        android:text="활동화면"
+        android:textColor="#0363A3"
+        android:textSize="@dimen/_32ssp"
+        app:layout_constraintBottom_toTopOf="@+id/textView73"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:onClick="onClick3"
+        app:layout_constraintBottom_toBottomOf="@+id/textView75"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView75"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/arrowaaa" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

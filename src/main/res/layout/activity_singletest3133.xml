@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".Singletest3133"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView65"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/dga" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.568"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.915"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.397"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.915"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.397"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.397"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView187"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView189"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView190"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView191"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView192"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView193"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView194"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.397"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView195"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.397"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView196"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.568"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView197"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.568"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView198"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.568"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView199"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView200"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView201"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView202"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.915"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView203"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.915"
+        app:srcCompat="@null" />
+
+    <ImageView
+        android:id="@+id/imageView204"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.915"
+        app:srcCompat="@null" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_52sdp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonedge"
+        android:fontFamily="@font/doumb"
+        android:onClick="onClick"
+        android:text="정답확인"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView65" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="@dimen/_93sdp"
+        android:layout_height="@dimen/_52sdp"
+        android:background="@drawable/buttonedge"
+        android:fontFamily="@font/doumb"
+        android:onClick="onClick1"
+        android:text="건너뛰기"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button30"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView65"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:text="다음 글자들 중 'ㅎ'과 같지않는 글자를 \n찾아 O표 하세요"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/doumb"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.347"/>
+    app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="103dp"
+        android:background="#0363A3"
+        android:fontFamily="@font/doumb"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="tt"
+        android:textColor="#0363A3"
+        android:textSize="@dimen/_32ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:onClick="onClick2"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.217"
+        app:srcCompat="@drawable/arrowaa" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:text="다른 모양 찾기"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/doumb"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:textColor="#C8FFFFFF"
+        android:textSize="@dimen/_24ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/imageView49"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
